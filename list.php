@@ -15,7 +15,7 @@ function pg_connection_string_from_database_url(){
 			}else{
 				echo "Opened database successfully\n";
 			}
-So Xe	Nhan Hieu
+
 
   $sql = "Select * from XE_OTO";
 
