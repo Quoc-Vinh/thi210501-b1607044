@@ -9,7 +9,7 @@ function pg_connection_string_from_database_url(){
 			}else{
 				echo "Opened database successfully\n";
 			}
-  $sql = "CREATE TABLE XE_OTO (ID INT PRIMARY KEY  IDENTITY(1,1)   NOT NULL, soXe CHAR(50), nhanhieu CHAR(50))";
+  $sql = "CREATE TABLE XE_OTO (ID INT PRIMARY KEY     NOT NULL, soXe CHAR(50), nhanhieu CHAR(50))";
   $ret = pg_query($db,$sql);
   if(!$ret){
      echo pg_last_error($db);
