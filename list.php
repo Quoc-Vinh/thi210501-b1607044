@@ -26,7 +26,7 @@ function pg_connection_string_from_database_url(){
 ?>
 
 	<table border="1" cellspacing="2" cellpadding="2">
-	<tr><td>MSSV</td><td>Họ tên</td></tr>
+	<tr><td>So Xe</td><td>Nhan Hieu</td></tr>
 <?php
 	while($myrow = pg_fetch_assoc($ret)){
 		printf ("<tr><td>%s</td><td>%s</td></tr>",$myrow['soXe'],$myrow['nhanhieu']);
